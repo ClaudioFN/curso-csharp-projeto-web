@@ -12,6 +12,7 @@ namespace SalesWebMvc.Controllers {
             return View();
         }
 
+        /// Vai procurar na pasta de Views(dentro da subpasta Home) páginas que tenham o nome dos métodos aqui listados
         public IActionResult About() {
             ViewData["Message"] = "Your application description page.";
 
